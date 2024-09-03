@@ -1,5 +1,4 @@
 const knex = require('./index')
-
 knex.schema
   .createTable('users', (table) => {
     table.increments('id')
